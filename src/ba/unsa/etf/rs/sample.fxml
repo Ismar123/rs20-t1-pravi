@@ -7,7 +7,11 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
+<?import java.net.URL?>
 <GridPane fx:id="tata" alignment="center" hgap="10" style="-fx-background-color: lightblue;" vgap="10" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Controller">
+   <stylesheets>
+      <URL value="@nesto.css"/>
+   </stylesheets>
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>

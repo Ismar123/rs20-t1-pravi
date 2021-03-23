@@ -11,7 +11,7 @@ public class Controller {
 
     public void onClick(ActionEvent actionEvent) {
         helloWorld.setText("Hello World!");
-        GridPane tata;
+       helloWorld.getStyleClass().add("tata");
 
     }
 }
